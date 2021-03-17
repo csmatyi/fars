@@ -1,0 +1,17 @@
+Package: fars
+Type: Package
+Title: Runs analysis on accident data
+Version: 0.1.0
+Author: Matthew Cserhati
+Maintainer: Matthew Cserhati <csmatyi1@gmail.com>
+Description: This package makes files.
+    It deals with stats. Analyzes accidents.
+License: GPL-2
+Encoding: UTF-8
+LazyData: true
+Suggests: 
+    knitr,
+    rmarkdown,
+    testthat
+VignetteBuilder: knitr
+RoxygenNote: 7.1.1

@@ -1,0 +1,27 @@
+---
+title: "fars-vignette"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{fars-vignette}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+Test project for creating R packages. Written by Matthew C, March 16, 2021.
+
+```{r setup}
+library(fars)
+make_filename(2012)
+```
+
+```{r testmap}
+getwd()
+#fars_map_state(12,2014)
+```
