@@ -1,2 +1,2 @@
 # fars
-fars package for Coursers course
+fars package for Coursera course
